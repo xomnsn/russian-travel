@@ -1,0 +1,18 @@
+.lead__image {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: calc(100% + 24px * 2);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lead__image {
+    width: calc(100% + 16px * 2);
+    margin-top: 40px;
+  }
+}

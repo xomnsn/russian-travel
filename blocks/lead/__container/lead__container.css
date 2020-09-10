@@ -1,0 +1,15 @@
+.lead__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__container {
+    padding: 0;
+  }
+}

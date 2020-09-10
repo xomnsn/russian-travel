@@ -1,0 +1,12 @@
+.lead {
+  display: flex;
+  justify-content: center;
+  background: #2a2c2f;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+  }
+}
