@@ -25,7 +25,6 @@
   box-sizing: border-box;
   background: #2a2c2f;
   opacity: .3;
-  transition: opacity .4s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -47,6 +46,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .cover__background::before {
+    transition: opacity .4s ease;
+  }
+
   .cover__background:hover::before {
     opacity: .8;
   }
