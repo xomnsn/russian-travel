@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 20fr 21fr;
   grid-template-rows: min-content auto;
   grid-template-areas:
     "title url"
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 4fr 6fr;
+    grid-template-columns: 26fr 27fr;
     column-gap: 28px;
     margin-bottom: 72px;
   }
