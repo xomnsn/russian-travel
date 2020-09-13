@@ -1,0 +1,7 @@
+.lead__way {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 95%;
+  transform: translateX(-50%);
+}

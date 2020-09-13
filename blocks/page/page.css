@@ -1,7 +1,7 @@
 .page {
-  box-sizing: border-box;
+  box-sizing: content-box;
   min-width: 320px;
-  max-width: 1500px;
+  max-width: 1184px;
   font-family: Inter, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

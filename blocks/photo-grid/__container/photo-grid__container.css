@@ -5,15 +5,8 @@
   gap: 14px;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1184px;
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-@media screen and (min-width: 1300px) {
-  .photo-grid__container {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1500px;
-  }
 }

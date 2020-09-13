@@ -1,7 +1,6 @@
 .places__container {
-  box-sizing: border-box;
   width: 100%;
-  max-width: 1500px;
+  max-width: 984px;
   list-style: none;
   margin: 0;
   padding: 0 100px;
